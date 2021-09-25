@@ -1,0 +1,37 @@
+body {
+    background-color: $backgroundBody;
+    /* background-image: url("../images/cadena.png");
+    background-position: 5vw left;
+    z-index: -10;
+    background-repeat: repeat-y; */
+}
+
+main {
+    background-image: url("../images/cadena.png");
+    background-position: 5vw left;
+    z-index: -10;
+    background-repeat: repeat-y;
+}
+
+.index {
+    &__img {
+        &--izquierda{
+            position: fixed;
+            top: 0px;
+            left: 3vw;
+        }
+    }
+}
+
+.secciones{
+    background-color: $fondoSecciones;
+    border: 1px solid #000000;
+    &__titulo{
+        background-color: $fondoTitulos;
+    }
+}
+
+.clientes {
+    background-color: $fondoClientes;
+    border: 1px solid #000000;
+}

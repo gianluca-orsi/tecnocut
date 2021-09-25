@@ -10305,4 +10305,38 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 3rem 1.5rem 6rem;
 }
 
+body {
+  background-color: #FFFFFF;
+  /* background-image: url("../images/cadena.png");
+  background-position: 5vw left;
+  z-index: -10;
+  background-repeat: repeat-y; */
+}
+
+main {
+  background-image: url("../images/cadena.png");
+  background-position: 5vw left;
+  z-index: -10;
+  background-repeat: repeat-y;
+}
+
+.index__img--izquierda {
+  position: fixed;
+  top: 0px;
+  left: 3vw;
+}
+
+.secciones {
+  background-color: #BFC0C1;
+  border: 1px solid #000000;
+}
+.secciones__titulo {
+  background-color: #E30000;
+}
+
+.clientes {
+  background-color: #BFC0C1;
+  border: 1px solid #000000;
+}
+
 /*# sourceMappingURL=style.css.map */
