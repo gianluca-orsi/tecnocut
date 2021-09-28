@@ -10305,25 +10305,17 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 3rem 1.5rem 6rem;
 }
 
+/* * {
+    font-size: 62,5%;
+} */
 body {
   background-color: #FFFFFF;
-  /* background-image: url("../images/cadena.png");
-  background-position: 5vw left;
-  z-index: -10;
-  background-repeat: repeat-y; */
 }
 
 main {
   background-image: url("../images/cadena.png");
-  background-position: 5vw left;
-  z-index: -10;
   background-repeat: repeat-y;
-}
-
-.index__img--izquierda {
-  position: fixed;
-  top: 0px;
-  left: 3vw;
+  background-size: 8vw;
 }
 
 .secciones {
@@ -10332,6 +10324,22 @@ main {
 }
 .secciones__titulo {
   background-color: #E30000;
+}
+.secciones__titulo--fuente {
+  font-family: "Work Sans", sans-serif;
+  color: #FFFFFF;
+}
+.secciones__contenido--fuente {
+  font-family: "Nunito", sans-serif;
+  color: #000000;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.enfasis {
+  font-weight: 700;
 }
 
 .clientes {

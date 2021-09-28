@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Animate on scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Work+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Tecnocut</title>
 </head>
 <body>
 
     <div>
-        <img src="./images/cadena.png" class="index__img--izquierda is-fluid">
-        <!-- Descripcion -->
         <div class="columns is-centered">
             <div class="column is-8">
                 <p class="has-text-centered">
@@ -23,21 +24,22 @@
             </div>
         </div>
 
-        <main>
+        <main class="container is-fluid">
+
             <!-- Titulo servicios -->
-            <div class="columns is-centered">
-                <div class="column m-2 secciones__titulo">
-                    <p class="has-text-centered">
+            <div class="columns is-mobile is-centered">
+                <div class="column is-8 m-2 secciones__titulo">
+                    <p class="has-text-centered secciones__titulo--fuente enfasis">
                         Servicios
                     </p>
                 </div>
             </div>
 
             <!-- Bloque mecanizado -->
-            <div class="columns is-centered">
-                <div class="column is-8 secciones">
+            <div class="columns is-mobile is-centered" data-aos="fade-up">
+                <div class="column is-10 secciones m-2 mt-0">
                     <div class="columns">
-                        <div class="column is-flex-wrap-nowrap is-align-self-center">
+                        <div class="column is-flex-wrap-nowrap is-align-self-center secciones__contenido--fuente">
                             <p class="has-text-centered">
                                 Mecanizado
                             </p>
@@ -73,10 +75,10 @@
 
 
             <!-- Bloque soldaduras -->
-            <div class="columns is-centered">
-                <div class="column is-8 secciones">
+            <div class="columns is-mobile is-centered" data-aos="fade-up">
+                <div class="column is-10 secciones m-2">
                     <div class="columns">
-                        <div class="column is-flex-wrap-nowrap is-align-self-center">
+                        <div class="column is-flex-wrap-nowrap is-align-self-center secciones__contenido--fuente">
                             <p class="has-text-centered">
                                 Soldaduras
                             </p>
@@ -97,10 +99,10 @@
             </div>
 
             <!-- Bloque pantografo -->
-            <div class="columns is-centered">
-                <div class="column is-8 secciones">
+            <div class="columns is-mobile is-centered" data-aos="fade-up">
+                <div class="column is-10 secciones m-2">
                     <div class="columns">
-                        <div class="column is-flex-wrap-nowrap is-align-self-center">
+                        <div class="column is-flex-wrap-nowrap is-align-self-center secciones__contenido--fuente">
                             <p class="has-text-centered">
                                 Pantógrafo
                             </p>
@@ -119,10 +121,10 @@
             </div>
 
             <!-- Bloque estructuras -->
-            <div class="columns is-centered">
-                <div class="column is-8 secciones">
+            <div class="columns is-mobile is-centered" data-aos="fade-up">
+                <div class="column is-10 secciones m-2">
                     <div class="columns">
-                        <div class="column is-flex-wrap-nowrap is-align-self-center">
+                        <div class="column is-flex-wrap-nowrap is-align-self-center secciones__contenido--fuente">
                             <p class="has-text-centered">
                                 Estructuras
                             </p>
@@ -137,10 +139,10 @@
             </div>
 
             <!-- Bloque pintura -->
-            <div class="columns is-centered">
-                <div class="column is-8 secciones">
+            <div class="columns is-mobile is-centered" data-aos="fade-up">
+                <div class="column is-10 secciones m-2">
                     <div class="columns">
-                        <div class="column">
+                        <div class="column is-flex-wrap-nowrap is-align-self-center secciones__contenido--fuente">
                             <p class="has-text-centered">
                                 Pintura
                             </p>
@@ -161,9 +163,9 @@
             </div>
 
             <!-- Titulo clientes -->
-            <div class="columns is-centered">
-                <div class="column m-2 secciones__titulo">
-                    <p class="has-text-centered">
+            <div class="columns is-mobile is-centered">
+                <div class="column is-8 m-2 secciones__titulo">
+                    <p class="has-text-centered secciones__titulo--fuente enfasis">
                         Clientes
                     </p>
                 </div>
@@ -172,8 +174,8 @@
             <!-- Bloque clientes 1 -->
             <div class="columns is-centered">
                 <div class="column is-8">
-                    <div class="columns has-text-centered-tablet">
-                        <div class="column is-4 m-2 clientes">
+                    <div class="columns is-mobile is-centered has-text-centered secciones__contenido--fuente">
+                        <div class="column is-4-tablet is-3-mobile m-2 clientes" data-aos="fade-up-right">
                             <p>
                                 D&E SA:
                             </p>
@@ -184,7 +186,7 @@
                                 Fabricamos toda la línea de soportes para pilotos automáticos
                             </p>
                         </div>
-                        <div class="column is-4 m-2 clientes" >
+                        <div class="column is-4-tablet is-3-mobile m-2 clientes" data-aos="fade-up">
                             <p>
                                 Tenaris SIAT: (Villa Constitución)
                             </p>
@@ -192,7 +194,7 @@
                                 Rectificado de rodillos de formación de tubos.
                             </p>
                         </div>
-                        <div class="column is-4 m-2 clientes">
+                        <div class="column is-4-tablet is-3-mobile m-2 clientes" data-aos="fade-up-left">
                             <p>
                                 P&H Transportes SA:
                             </p>
@@ -213,8 +215,8 @@
             <!-- Bloque clientes 2 -->
             <div class="columns is-centered">
                 <div class="column is-8">
-                    <div class="columns has-text-centered-tablet">
-                        <div class="column is-4 m-2 clientes">
+                    <div class="columns is-mobile is-centered has-text-centered secciones__contenido--fuente">
+                        <div class="column is-4-tablet is-3-mobile m-2 clientes" data-aos="fade-up-right">
                             <p>
                                 CIOR SRL: (Villa Constitución)
                             </p>
@@ -222,7 +224,7 @@
                                 Mecanizados Industriales
                             </p>
                         </div>
-                        <div class="column is-4 m-2 clientes">
+                        <div class="column is-4-tablet is-3-mobile m-2 clientes" data-aos="fade-up">
                             <p>
                                 Servicio Tecnicos SRL
                             </p>
@@ -230,7 +232,7 @@
                                 Estructuras Metalúrgicas
                             </p>
                         </div>
-                        <div class="column is-4 m-2 clientes">
+                        <div class="column is-4-tablet is-3-mobile m-2 clientes" data-aos="fade-up-left">
                             <p>
                                 Giorlando SRL (Pilar BsAs)
                             </p>
@@ -245,8 +247,8 @@
             <!-- Bloque clientes 3 -->
             <div class="columns is-centered">
                 <div class="column is-8">
-                    <div class="columns has-text-centered-tablet">
-                        <div class="column is-3 m-2 clientes">
+                    <div class="columns is-mobile is-centered has-text-centered secciones__contenido--fuente">
+                        <div class="column is-3-tablet is-2-mobile m-2 clientes" data-aos="fade-up-right">
                             <p>
                                 Favot SA (Cruz Alta, Córdoba) 
                             </p>
@@ -254,7 +256,7 @@
                                 Fábrica de pulverizadoras
                             </p>
                         </div>
-                        <div class="column is-3 m-2 clientes">
+                        <div class="column is-3-tablet is-2-mobile m-2 clientes" data-aos="fade-up">
                             <p>
                                 Ombú (Las Parejas- Santa Fe) 
                             </p>
@@ -262,7 +264,7 @@
                                 Maquinaria Agrícola
                             </p>
                         </div>
-                        <div class="column is-3 m-2 clientes">
+                        <div class="column is-3-tablet is-2-mobile m-2 clientes" data-aos="fade-up">
                             <p>
                                 Tenaris Siderca 
                             </p>
@@ -270,7 +272,7 @@
                                 (Campana)
                             </p>
                         </div>
-                        <div class="column is-3 m-2 clientes">
+                        <div class="column is-3-tablet is-2-mobile m-2 clientes" data-aos="fade-up-left">
                             <p>
                                 Tenaris Siat 
                             </p>
@@ -283,16 +285,16 @@
             </div>
 
             <!-- Titulo galeria -->
-            <div class="columns is-centered">
-                <div class="column is-8 pb-0">
-                    <p class="has-text-centered">
+            <div class="columns is-mobile is-centered">
+                <div class="column is-8 secciones__titulo">
+                    <p class="has-text-centered secciones__titulo--fuente enfasis">
                         Galería
                     </p>
                 </div>
             </div>
 
             <!-- Bloque galeria 1-->
-            <div class="columns is-centered">
+            <div class="columns is-mobile is-centered">
                 <div class="column is-8">
                     <div class="columns is-centered">
                         <div class="column is-3">
@@ -323,23 +325,33 @@
 
     </main>
 
+    <footer>
+        <div class="columns is-mobile is-centered">
+<!--             <div class="column is-6">
 
-
-
-
-    <!-- Bloque generico -->
-    <div class="columns is-centered">
-        <div class="column is-8">
-            <div class="columns">
-                <div class="column is-4">
-                </div>
-                <div class="column is-centered">
-                </div>
+            </div> -->
+            <div class="column is-8">
+                <p class="secciones__titulo--fuente">
+                    Contacto:
+                </p>
+                <ul>
+                    <li>
+                        Domicilio de operaciones: Rivarola 4730, Villa Constitución
+                    </li>
+                    <li>
+                        Domicilio fiscal: Izarra 578, Villa Constitución
+                    </li>
+                    <li>
+                        Teléfono: 341 - 2124913 
+                    </li>
+                    <li>
+                        Email: <a href="mailto:tecnocut@hotmail.com.ar​">tecnocut@hotmail.com.ar​</a>
+                    </li>
+                </ul>
+                
             </div>
         </div>
-    </div>
-
-
+    </footer>
 
     <!-- Script animate on scroll -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
