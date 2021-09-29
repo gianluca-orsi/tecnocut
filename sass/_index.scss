@@ -1,8 +1,16 @@
-/* * {
+* {
     font-size: 62,5%;
-} */
+}
 body {
-    background-color: $backgroundBody;
+    background-color: #BFC0C1;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23FFFFFF' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23BFC0C1' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23c3b5b6' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23c7a9aa' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ca9e9f' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23ce9394' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d28888' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23d67c7d' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23d97172' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23dd6666' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23e15a5b' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23e54f4f' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23e84444' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23ec3839' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23f02d2d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23f42222' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23f71717' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23fb0b0b' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23FF0000' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+}
+
+header {
+    background-color: $fondoHeader;
 }
 
 main {
@@ -12,18 +20,26 @@ main {
 }
 
 .secciones{
-    background-color: $fondoSecciones;
+    background-image: url(../images/fondoRuido.png);
     border: 1px solid #000000;
     &__titulo{
         background-color: $fondoTitulos;
+        border: 1px solid #000000;
         &--fuente{
             font-family: $tituloFuente;
+            font-size: 1.6rem;
             color: $colorTextoTitulo;
+            text-shadow:
+            -1px -1px 0 #000,  
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
         }
     }
     &__contenido{
         &--fuente{
             font-family: $contenidoFuente;
+            font-size: 1.2rem;
             color: $colorTextoContenido;
         }
     }
@@ -38,6 +54,6 @@ main {
 }
 
 .clientes {
-    background-color: $fondoClientes;
+    background-image: url(../images/fondoRuido.png);
     border: 1px solid #000000;
 }
