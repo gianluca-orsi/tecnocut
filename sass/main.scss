@@ -2,3 +2,10 @@
 @import './variables';
 @import './index';
 
+
+@media only screen and(max-width: 768px){
+    nav{
+        font-size: 0.8rem;
+    }
+    
+}
