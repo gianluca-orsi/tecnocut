@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top" lang="es">
+<html lang="es">
     
 <head>
     <meta charset="UTF-8">
@@ -15,12 +15,13 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Ir al inicio">Ir al inicio</button>
 
-    <nav class="navbar is-fixed-top level is-mobile is-justify-content-space-around mb-3 p-2">
+    <nav class="navbar level is-mobile is-justify-content-space-around mb-3 p-2">
         <p class="level-item"><a href="#Servicios">Servicios</a></p>
         <p class="level-item"><a href="#Clientes">Clientes</a></p>
         <div class="level-item">
-            <img style="width: 3.25rem; height: 3.25rem;" src="./images/logo.gif" alt="Logo Tecnocut">
+            <img style="width: 3rem; height: 3rem;" src="./images/logo.gif" alt="Logo Tecnocut">
         </div>
         <p class="level-item"><a href="#Galeria">Galería</a></p>
         <p class="level-item"><a href="#Contacto">Contacto</a></p>
@@ -28,7 +29,7 @@
     
     <header class="my-3 pt-2">
         <div class="columns is-mobile is-centered">
-            <div class="column is-6">
+            <div class="column is-8">
                 <p class="has-text-centered header--fuente">
                     En <span class="enfasis">TECNOCUT S.R.L.</span> ofrecemos un servicio garantizando productos de calidad.
                     Contamos con recursos especializados para cada proceso de producción, nos encargamos de contemplar cada detalle en las diferentes etapas de nuestros trabajos, para obtener y brindar los mejores resultados. 
@@ -496,7 +497,7 @@
 
     <footer class="mt-3" id="Contacto">
         <div class="columns is-mobile is-centered">
-            <div class="column is-8">
+            <div class="column is-10">
                 <p class="secciones__titulo--fuente">
                     Contacto:
                 </p>
@@ -514,7 +515,6 @@
                         Email: <a href="mailto:tecnocut@hotmail.com.ar​">tecnocut@hotmail.com.ar​</a>
                     </li>
                 </ul>
-                
             </div>
         </div>
     </footer>
@@ -524,5 +524,6 @@
     <script>
         AOS.init();
     </script>
+    <script src="./js/topButton.js"></script>
 </body>
 </html>

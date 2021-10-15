@@ -11540,6 +11540,27 @@ ul li {
   list-style-position: inside;
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 2vh;
+  right: 10vw;
+  z-index: 99;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: #686868;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
 @media only screen and (max-width: 768px) {
   nav {
     font-size: 0.8rem;
