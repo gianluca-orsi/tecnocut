@@ -7,5 +7,10 @@
     nav{
         font-size: 0.8rem;
     }
-    
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 2vh;
+        right: vw;
+    }
 }
