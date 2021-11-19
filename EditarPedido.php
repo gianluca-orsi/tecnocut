@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Editar Pedido</title>
+    <title>SGP - Editar Pedido</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
     <link rel="shortcut icon" href="Multimedia/Iconos/icon.png">
@@ -10,9 +10,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="fondoSistema">
 <?php
     
     //Conexión al servidor y la BD mediante un archivo externo que proporciona la cadena de conexión
@@ -61,12 +62,43 @@
     }
 
 ?>
+<body>
+<nav class="navbar level is-mobile is-justify-content-space-around mb-3 p-2 header--fuente">
+        <div class="level-item">
+            <a href="./index.html">
+                <img style="width: 3rem; height: 3rem;" src="./images/logo.gif" alt="Logo Tecnocut">
+            </a>
+        </div>
+        <div class="level-item">
+            <a href="./Pedidos.php">Pedidos</a>
+        </div>
+        <div class="level-item">
+            <a href="./Remitos.php">Remitos</a>
+        </div>
+        <div class="level-item">
+            <a href="./Clientes.php">Clientes</a>
+        </div>
+        <div class="level-item">
+            <a href="./Localidades.php">Localidades</a>
+        </div>
+        <div class="level-item">
+            <a href="./Productos.php">Productos</a>
+        </div>
+    </nav>
+
 <div class="contenedor">
     <header class="cabecera"></header>
-    <div class="caja4">
-        <div class="ti1"><h1>Sistema de Gestion de Pedidos</h1></div>
-        <div class="border"></div>
-        <div class="b1"><h1>Editar Pedido</h1></div>
+
+        <div class="columns">
+            <header class="column is-12 has-text-centered header--fuente">
+                <p style="font-size: 2rem">
+                    Sistema de Gestion de Pedidos
+                </p>
+                <p>
+                    Editar Pedido
+                </p>
+            </header>
+        </div>
 
         <!-- Comienza el Contenedor Principal -->
         <div class="container">
@@ -79,7 +111,7 @@
 
         <hr>
 
-        <form action="EditarPedido.php" method="POST" name="agenda-edicion">
+        <form action="EditarPedido.php" method="POST" name="agenda-edicion" style="background-color: white" class="p-3">
     
             <div class="form-group row">
                 <div class="col-sm-3">
